@@ -1,0 +1,22 @@
+{
+  "name": "tv4-angular",
+  "version": "1.0.0",
+  "description": "![](https://raw.githubusercontent.com/scottmotte/sinatra-heroku-cedar-template/master/sinatra-heroku-cedar-template.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LawrenceJones/angular-tv4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LawrenceJones/angular-tv4/issues"
+  },
+  "homepage": "https://github.com/LawrenceJones/angular-tv4",
+  "dependencies": {
+    "bower": "^1.3.12"
+  }
+}
