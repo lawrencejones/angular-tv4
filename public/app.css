@@ -1,0 +1,12 @@
+textarea.code {
+  width: 100%;
+  font-family: monaco;
+}
+
+.row.error {
+  padding-top: 12px;
+}
+
+pre.code {
+  text-align: left;
+}

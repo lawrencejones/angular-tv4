@@ -1,0 +1,22 @@
+{
+  "name": "tv4-angular",
+  "version": "0.0.0",
+  "authors": [
+    "Lawrence Jones <lawrjone@amazon.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.4",
+    "tv4": "~1.1.4",
+    "bootstrap": "~3.3.1",
+    "jquery": "~2.1.1"
+  }
+}

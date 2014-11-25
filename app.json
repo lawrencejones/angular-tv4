@@ -1,0 +1,9 @@
+{
+  "name": "tv4-angular",
+  "description": "Get an idea of how tv4 validates json with a live view of errors",
+  "keywords": [
+    "angular", "tv4", "sinatra"
+  ],
+  "website": "https://github.com/LawrenceJones/tv4-angular.git",
+  "repository": "https://github.com/LawrenceJones/tv4-angular"
+}

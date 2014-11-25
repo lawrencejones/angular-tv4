@@ -1,0 +1,40 @@
+doctype html
+
+head
+
+  script(src='/jquery/dist/jquery.js')
+  script(src='/angular/angular.js')
+  script(src='/tv4/tv4.js')
+  script(src='/bootstrap/dist/js/bootstrap.js')
+  script(src='/app.js')
+
+  link(rel='stylesheet' type='text/css' href='/bootstrap/dist/css/bootstrap.css')
+  link(rel='stylesheet' type='text/css' href='/app.css')
+
+body(ng-app='angular-tv4' ng-controller='AppCtrl')
+
+  .container(style='text-align:center')
+
+    .row
+      .col-md-12
+        h1
+          | angular-tv4
+
+    .row
+
+      .col-md-4.col-md-offset-2
+        h3 Schema
+        textarea.form-control.code.error(rows='15' ng-model='schema')
+
+      .col-md-4
+        h3 Data
+        textarea.form-control.code(rows='15' ng-model='data')
+
+    .row.error
+      .col-md-8.col-md-offset-2
+        pre.code
+          | {{ printError() }}
+
+
+
+
